@@ -41,12 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Camera
+    uniqueID: 969007421
+    locked: 0
   - name: Ground
     uniqueID: 1059558943
+    locked: 0
+  - name: UpWall
+    uniqueID: 2580527341
     locked: 0
   - name: Player
     uniqueID: 424822357
     locked: 0
-  - name: Door
-    uniqueID: 2580527341
+  - name: DownWall
+    uniqueID: 1663974893
     locked: 0

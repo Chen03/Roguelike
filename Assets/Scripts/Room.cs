@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
-    public GameObject doorLeft, doorRight, doorUp, doorDown;
-    public bool roomLeft, roomRight, roomUp, roomDown;
+    public GameObject[] wall = new GameObject[4];
+    public bool[] hasRoom = new bool[4];
+    // public GameObject doorLeft, doorRight, doorUp, doorDown;
+    // public bool roomLeft, roomRight, roomUp, roomDown;
     // Start is called before the first frame update
     void Start()
     {
-        doorLeft.SetActive(roomLeft);
-        doorRight.SetActive(doorRight);
-        doorUp.SetActive(roomUp);
-        doorDown.SetActive(roomDown);
+        for (int i = 0; i < 4; ++i)
+            wall[i].SetActive(!hasRoom[i]);
     }
 
     // Update is called once per frame
