@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,10 +10,16 @@ public class PlayerController : MonoBehaviour
     Animator anim;
     Vector2 movement;
 
-    public GameObject HoldingWeapon;
+    HealthSystem healthSystem;
+    EventHandler Dead = (object o, EventArgs e) => {
+        Debug.Log("233");
+    };
     // Start is called before the first frame update
     void Start()
     {
+        healthSystem = GetComponent<HealthSystem>();
+        healthSystem.HadDead += Dead;
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -20,9 +27,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.anyKeyDown){
-            HoldingWeapon.GetComponent<Animator>().SetTrigger("HasUsed");
-        }
     }
 
     void FixedUpdate() {
