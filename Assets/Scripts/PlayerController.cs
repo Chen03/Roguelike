@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     Vector2 movement;
+
+    public GameObject HoldingWeapon;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.anyKeyDown){
+            HoldingWeapon.GetComponent<Animator>().SetTrigger("HasUsed");
+        }
     }
 
     void FixedUpdate() {
