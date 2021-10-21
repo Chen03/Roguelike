@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "sprite": "Item/objects_common_19",
+            "type": 0,
+            "ID": 0,
+            "chasing": false
+        },
+        {
+            "sprite": "Weapon/Bullets/bullet_16",
+            "type": 0,
+            "ID": 1,
+            "chasing": true
+        }
+    ]
+}

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Mob
+  - Item
+  - Interactive
+  - Wall
   layers:
   - Default
   - TransparentFX

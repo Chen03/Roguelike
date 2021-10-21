@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "name": "hand",
+            "EP": 0,
+            "CD": 0.5,
+            "angle": 30,
+            "distance": 1.5,
+            "damage": 1,
+            "type": 0
+        },
+        {
+            "name": "pistol",
+            "sprite": "Weapon/Weapons/weapons_19",
+            "EP": 1,
+            "CD": 0.05,
+            "angle": 0,
+            "bulletID" : 0,
+            "type": 1
+        },
+        {
+            "name": "bow",
+            "sprite": "Weapon/Bows/weapons_65",
+            "animator": "Animation/Weapon/Bow/Bow",
+            "EP": 1,
+            "CD": 0.5,
+            "bulletID": 1,
+            "type": 2
+        },
+        {
+            "name": "caidao",
+            "sprite": "Weapon/Swords/weapons_54",
+            "animator": "Animation/Weapon/Sword/Sword",
+            "EP": 1,
+            "CD": 0.5,
+            "angle": 30,
+            "distance": 2,
+            "damage": 2,
+            "type": 0
+        }
+    ]
+}

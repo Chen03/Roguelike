@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "name": "Pig",
+            "sprite": "Monster/pig/enemy27_0",
+            "animator": "Animation/Pig/Pig",
+            "defaultState": "Idle",
+            "anyState": "AnyState",
+            "health": {
+                "HP": 20,
+                "MaxHP": 20,
+                "EP": 20,
+                "MaxEP": 20
+            },
+            "weaponID": 0
+        },
+        {
+            "name": "Goblin",
+            "sprite": "Monster/goblin/enemy22_0",
+            "animator": "Animation/Goblin/Goblin",
+            "defaultState": "Idle",
+            "anyState": "AnyState",
+            "health": {
+                "HP": 20,
+                "MaxHP": 20,
+                "EP": 20,
+                "MaxEP": 20
+            },
+            "weaponID": 3
+        },
+        {
+            "name": "GoblinGun",
+            "sprite": "Monster/goblin/enemy22_0",
+            "animator": "Animation/Goblin/Goblin",
+            "defaultState": "GunIdle",
+            "stateInfoClass": "GunStateInfo",
+            "health": {
+                "HP": 20,
+                "MaxHP": 20,
+                "EP": 100,
+                "MaxEP": 100
+            },
+            "weaponID": 1
+        },
+        {
+            "name": "Goblin_witch",
+            "sprite": "Monster/goblin/enemy22_0",
+            "animator": "Animation/Goblin/Goblin",
+            "defaultState": "GunIdle",
+            "health": {
+                "HP": 100,
+                "MaxHP": 100,
+                "EP": 500,
+                "MaxEP": 500
+            },
+            "weaponID": 1
+        }
+    ]
+}

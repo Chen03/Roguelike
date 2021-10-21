@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "roomPrefab": "Prefab/BasicRoom",
+            "mobList": [0, 0, 1, 1]
+        },
+        {
+            "roomPrefab": "Prefab/BasicRoom",
+            "mobList": []
+        },
+        {
+            "roomPrefab": "Prefab/EndRoom",
+            "mobList": []
+        },
+        {
+            "roomPrefab": "Prefab/Room1",
+            "mobList": [0, 1, 2, 2, 2]
+        }
+    ]
+}
